@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Conde.Kalah</RootNamespace>
+    <AssemblyName>Conde.Kalah</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Description>Kalah resolvido por numero de covas e de sementes, em F#: placar exato com memoria, semeadura conferida semente a semente</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Nucleo.fs" />
+    <Compile Include="Juiz.fs" />
+    <Compile Include="Medidas.fs" />
+  </ItemGroup>
+</Project>
